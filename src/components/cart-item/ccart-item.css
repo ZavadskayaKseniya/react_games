@@ -10,3 +10,8 @@
     display: flex;
 
 }
+
+.cart-item__delete-icon {
+    margin-left: 5px;
+    cursor:pointer
+}

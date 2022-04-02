@@ -9,7 +9,7 @@ const GAMES = [
         title: 'Assassin Creed Valhalla',
         genres: ['Паркур','РПГ','Открытый мир'],
         price: 2893,
-        video: 'https://www.youtube.com/watch?v=-GvDTvLRe3k',
+        video: 'https://www.youtube.com/embed/-GvDTvLRe3k',
         id: 1,
         description: "Assassin Creed Valhalla - мультиплатформенная компьютерная игра"
     },
@@ -18,7 +18,7 @@ const GAMES = [
         title: 'The Battlefield',
         genres: ['Тактика','Шутер'],
         price: 3400,
-        video: 'https://www.youtube.com/watch?v=ASzOzrB-a9E',
+        video: 'https://www.youtube.com/embed/ASzOzrB-a9E',
         id: 2,
         description: "The Battlefield - увлекательная игра"
     },
@@ -27,7 +27,7 @@ const GAMES = [
         title: 'Forza 5',
         genres: ['Экшон'],
         price: 1950,
-        video: 'https://www.youtube.com/watch?v=FYH9n37B7Yw',
+        video: 'https://www.youtube.com/embed/FYH9n37B7Yw',
         id: 3,
         description: "Forza 5 - лучшие гоночные трассы "
     },
@@ -36,7 +36,7 @@ const GAMES = [
         title: 'GTA 5',
         genres: ['Симулятор','Стратерия'],
         price: 3409,
-        video: 'https://www.youtube.com/watch?v=QkkoHAzjnUs',
+        video: 'https://www.youtube.com/embed/QkkoHAzjnUs',
         id: 4,
         description: "GTA 5 как в детстве!"
     },
@@ -45,7 +45,7 @@ const GAMES = [
         title: 'life_is_strange',
         genres: ['Стратегия'],
         price: 2500,
-        video: 'https://www.youtube.com/watch?v=AURVxvIZrmU',
+        video: 'https://www.youtube.com/embed/AURVxvIZrmU',
         id: 5,
         description: "life_is_strange - построй свою реальность"
     },
@@ -54,9 +54,9 @@ const GAMES = [
         title: 'Rainbow Six Siege',
         genres: ['Военные','Аркады'],
         price: 6265,
-        video: 'https://www.youtube.com/watch?v=6wlvYh0h63k',
+        video: 'https://www.youtube.com/embed/6wlvYh0h63k',
         id: 6,
-        description: "https://www.youtube.com/watch?v=6wlvYh0h63k - осуществи мечту стать военным"
+        description: "Rainbow Six Siege - осуществи мечту стать военным"
     }
 ]
 export const HomePage = () => {

@@ -1,11 +1,14 @@
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  Navigate
 } from "react-router-dom";
 import { Provider } from "react-redux";
 import { HomePage } from './pages/home-page';
+import { GamePage } from './pages/game-page';
 import { Header } from './components/header';
+import { OrderPage } from "./pages/order-page";
 import {store} from './redux';
 
 function App() {
@@ -15,7 +18,9 @@ function App() {
         <div className="App">
           <Header />
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route  path="/" element={<HomePage />} />
+            <Route  path="/app/:title" element={<GamePage />} />
+            <Route  path="/order" element={<OrderPage />} />
           </Routes>
         </div>
       </Router>
