@@ -14,10 +14,17 @@
 }
 
 .header__store-title {
-color:white;
+color:rgb(218, 214, 214);
 text-decoration: none;
 font-size:24px;
 font-weight:bold;
+
+}
+
+.header__store-title:hover{
+
+  color: rgb(96, 97, 97);
+  /* transition: color 0.1s; */
 }
 
 .header__cart-btn-wrapper {

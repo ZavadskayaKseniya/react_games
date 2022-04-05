@@ -8,9 +8,14 @@
     cursor:pointer;
     position: relative;
 }
+.game-item:hover{
+    opacity: 0.6;
+    box-shadow: 10px 5px 10px red;
+    transition: opacity 0.3s, box-shadow 0.3s;
+}
 
 .game-item:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-right: 50px;
 }
 .game-item__details{

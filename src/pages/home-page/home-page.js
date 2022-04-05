@@ -5,13 +5,13 @@ import './home-page.css';
 
 const GAMES = [
     {
-        image: '/game-covers/assassins_creed_valhalla.png',
-        title: 'Assassin Creed Valhalla',
+        image: '/game-covers/metro.jpg',
+        title: 'Metro Exodus',
         genres: ['Паркур','РПГ','Открытый мир'],
         price: 2893,
-        video: 'https://www.youtube.com/embed/-GvDTvLRe3k',
+        video: 'https://www.youtube.com/embed/fbbqlvuovQ0',
         id: 1,
-        description: "Assassin Creed Valhalla - мультиплатформенная компьютерная игра"
+        description: "Исследуйте живописные руины мертвой Москвы, купайтесь в ледяной Волге, ощутите жаркое дуновение сухого каспийского ветра, отправьтесь вглубь залитой лунным светом тайги и раскройте мрачные тайны Новосибирска."
     },
     {
         image: '/game-covers/battlefield_2042.jpg',
@@ -23,13 +23,13 @@ const GAMES = [
         description: "The Battlefield - увлекательная игра"
     },
     {
-        image: '/game-covers/forza_5.jpeg',
-        title: 'Forza 5',
+        image: '/game-covers/ghostwire.jpg',
+        title: 'Ghostwire: Tokyo',
         genres: ['Экшон'],
         price: 1950,
-        video: 'https://www.youtube.com/embed/FYH9n37B7Yw',
+        video: 'https://www.youtube.com/embed/ZM1i5BRwqtg',
         id: 3,
-        description: "Forza 5 - лучшие гоночные трассы "
+        description: "Объединитесь с могущественной призрачной сущностью в их стремлении отомстить и овладейте мощным арсеналом способностей, чтобы разгадать темную правду, стоящую за исчезновением, когда вы ВСТРЕЧАЙТЕСЬ С НЕИЗВЕСТНЫМ в Ghostwire: Tokyo."
     },
     {
         image: '/game-covers/gta_v.jpeg',
